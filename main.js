@@ -7,8 +7,12 @@ var letterCapitalize = function(string) {
 		var combinedWord = firstLetterCap + restOfWord;
 		capitalized.push (combinedWord);
 	}
-	alert(capitalized);
-
+	return capitalized;
 }
+// letterCapitalize("word1 word2 word3 word4");
 
-letterCapitalize("word1 word2 word3 word4");
+var wordCount = function(string) {
+	console.log((string.split(" ")).length);
+	return (string.split(" ")).length;
+}
+wordCount("word1 word2");
