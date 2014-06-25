@@ -32,4 +32,4 @@ var primeTime = function(number) {
 	return true
 }
 
-// console.log(primeTime(99839));
+// console.log(primeTime(31));
